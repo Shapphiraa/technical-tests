@@ -2,7 +2,7 @@
 
 Escribe las soluciones en el archivo `solutions/index.js` manteniendo el nombre de las funciones y sus `export`. Usa `ESModules` en tu proyecto de Node.js
 
-1 - Arregla esta función para que el código posterior funcione como se espera:
+✅ 1 - Arregla esta función para que el código posterior funcione como se espera:
 
 ```javascript
 import net from 'node:net'
@@ -27,7 +27,7 @@ ping('midu.dev', (err, info) => {
 })
 ```
 
-2 - Transforma la siguiente función para que funcione con promesas en lugar de callbacks:
+✅ 2 - Transforma la siguiente función para que funcione con promesas en lugar de callbacks:
 
 ```javascript
 export function obtenerDatosPromise(callback) {
@@ -37,7 +37,7 @@ export function obtenerDatosPromise(callback) {
 }
 ```
 
-3 - Explica qué hace la funcion. Identifica y corrige los errores en el siguiente código. Si ves algo innecesario, elimínalo. Luego mejoralo para que siga funcionando con callback y luego haz lo que consideres para mejorar su legibilidad.
+✅ 3 - Explica qué hace la funcion. Identifica y corrige los errores en el siguiente código. Si ves algo innecesario, elimínalo. Luego mejoralo para que siga funcionando con callback y luego haz lo que consideres para mejorar su legibilidad.
 
 ```javascript
 export function procesarArchivo() {
@@ -65,7 +65,7 @@ export function procesarArchivo() {
 }
 ```
 
-4 - ¿Cómo mejorarías el siguiente código y por qué? Arregla los tests si es necesario:
+✅ 4 - ¿Cómo mejorarías el siguiente código y por qué? Arregla los tests si es necesario:
 
 ```javascript
 import fs from 'node:fs';
@@ -81,7 +81,7 @@ export function leerArchivos() {
 leerArchivos();
 ```
 
-5 - Escribe una funcion `delay` que retorne una promesa que se resuelva después de `n` milisegundos. Por ejemplo:
+✅ 5 - Escribe una funcion `delay` que retorne una promesa que se resuelva después de `n` milisegundos. Por ejemplo:
 
 ```javascript
 export async function delay () {
